@@ -1,0 +1,7 @@
+{
+  "name": "RiskLens",
+  "description": "A high-performance 2D/3D web interface for QGIS outputs, featuring real-time flood prediction, construction feasibility analysis, and automated alerts powered by Gemini AI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
