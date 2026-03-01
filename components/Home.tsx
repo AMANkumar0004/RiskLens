@@ -142,27 +142,27 @@ const Home: React.FC<HomeProps> = ({ language, onStart, onDocs }) => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <TeamMember 
-            name="Alex Rivers" 
+            name="Aman" 
             role="Lead AI Architect" 
-            image="https://picsum.photos/seed/dev1/400/400" 
+            image="/pic.jpg" 
             bio="Expert in LLM integration and geospatial reasoning systems."
           />
           <TeamMember 
-            name="Sarah Chen" 
+            name="Mrigakshi Rathore" 
             role="Full-Stack Engineer" 
-            image="https://picsum.photos/seed/dev2/400/400" 
+            image="/pic1.png" 
             bio="Specializes in high-performance React interfaces and real-time data."
           />
           <TeamMember 
-            name="Marcus Thorne" 
+            name="Garvit Pandya" 
             role="GIS Specialist" 
-            image="https://picsum.photos/seed/dev3/400/400" 
+            image="/pic3.png" 
             bio="Master of spatial data layers and QGIS engine optimization."
           />
           <TeamMember 
-            name="Elena Vance" 
+            name="Nishtha Pandya" 
             role="Product Designer" 
-            image="https://picsum.photos/seed/dev4/400/400" 
+            image="/pic4.png" 
             bio="Focused on creating intuitive, mission-critical dashboard experiences."
           />
         </div>

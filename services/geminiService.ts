@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { PredictionData, LanguageCode, SUPPORTED_LANGUAGES, ChatMessage } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export async function analyzeArea(
   lat: number, 
@@ -65,7 +65,7 @@ export async function getChatResponse(
   }));
 
   const chat = ai.chats.create({
-    model: 'gemini-3.1-pro-preview', // Upgraded for more complex reasoning and longer context
+    model: 'gemini-3-flash-preview', // Upgraded for more complex reasoning and longer context
     history: geminiHistory,
     config: {
       systemInstruction: `You are RiskLens, a world-class Geospatial & Construction Engineering Assistant. 
