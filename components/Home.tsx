@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = ({ language, onStart, onDocs }) => {
 
           <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto font-medium leading-relaxed">
             The ultimate geospatial decision-support system. 
-            Harnessing the power of <span className="text-white">Gemini 3.1 Pro</span> to predict risks and optimize construction feasibility in real-time.
+            Harnessing the power of <span className="text-white">Data</span> to predict risks and optimize construction feasibility in real-time.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-10">
