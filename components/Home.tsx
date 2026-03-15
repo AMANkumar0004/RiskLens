@@ -56,11 +56,12 @@ const Home: React.FC<HomeProps> = ({ language, onStart, onDocs }) => {
               </svg>
             </button>
             <button 
-              onClick={}
-              className="px-10 py-5 bg-slate-900/50 hover:bg-slate-800 text-slate-300 font-bold rounded-2xl border border-slate-800 transition-all backdrop-blur-md"
-            >
-              Documentation
-            </button>
+  onClick={onDocs}
+  disabled
+  className="px-10 py-5 bg-slate-900/50 hover:bg-slate-800 text-slate-300 font-bold rounded-2xl border border-slate-800 transition-all backdrop-blur-md"
+>
+  Documentation
+</button>
           </div>
         </div>
 
